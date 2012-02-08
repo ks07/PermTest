@@ -1,0 +1,14 @@
+name: ptest
+version: 1.0
+author: ks07
+main: uk.co.ks07.ptest.PTest
+website: http://ks07.co.uk/
+commands:
+  ptest:
+    description: Tests a permission.
+    usage: /<command> <permission> - Tests the permission.
+    permission: ptest.test
+permissions:
+  ptest.test:
+    description: Tests a permission.
+    default: op
